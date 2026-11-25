@@ -1,4 +1,6 @@
 
 ## negocios por municipio
-SELECT *
+SELECT
+    municipio,
+    nombre_act
 FROM public.denue_inegi_oficial;
