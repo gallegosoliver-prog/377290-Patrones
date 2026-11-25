@@ -8,3 +8,4 @@ SELECT
     COUNT(*) AS total
 FROM public.denue_inegi_oficial;
 GROUP BY municipio, nombre_act;
+ORDER BY municipio, total DESC;
