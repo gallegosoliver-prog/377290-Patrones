@@ -2,5 +2,6 @@
 ## negocios por municipio
 SELECT
     municipio,
-    nombre_act
+    nombre_act,
+    COUNT(*) AS total
 FROM public.denue_inegi_oficial;
