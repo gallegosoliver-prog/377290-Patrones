@@ -7,3 +7,4 @@ SELECT
     nombre_act,
     COUNT(*) AS total
 FROM public.denue_inegi_oficial;
+GROUP BY municipio, nombre_act;
