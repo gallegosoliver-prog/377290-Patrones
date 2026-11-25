@@ -6,4 +6,5 @@ SELECT
     COUNT(*) AS total
 FROM public.denue_inegi_oficial
 WHERE entidad = 'Baja California'
-GROUP BY municipio, nombre_act;
+GROUP BY municipio, nombre_act
+ORDER BY municipio, total DESC;
